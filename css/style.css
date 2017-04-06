@@ -1,0 +1,779 @@
+/* CSS Document
+ *
+ * Colors:
+ * - Brown: #5c4b51
+ * - Mint: #8cbeb2
+ * - Peach: #f2ebbf
+ * - Orange: #f3b562
+ * - Red: #f06060
+ *
+ * Menu:
+ * - Home (Intro)
+ * - Experience
+ * - Skills
+ * - Tools
+ * - Contact
+ *
+ * Fonts:
+ * - Open Sans
+ * - Varela Round
+ */
+
+/*Page*/
+html, body{
+	-webkit-font-smoothing: antialiased;
+	/*font-family:  'Quicksand', sans-serif;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Tangerine', cursive;*/
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    min-width: 960px;
+	height: 100%;
+    margin: 0 auto;
+}
+
+/*HEADER*/
+#header{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    background: #2a2a2a;
+    /*background: #5c4b51;*/
+    padding: 50px 20px 25px 20px;
+}
+#malcom{
+    font-family: 'Space Mono', monospace;
+    font-size: 150%;
+    width: 960px;
+    padding: 0px 0 25px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+#header img{
+    display: inline-block;
+	height: 150px;
+	border: 0px;
+	border-radius: 150px;
+    margin: 0 10px 0 0;
+    vertical-align: middle;
+}
+h1, h2, h3, h4, h5, h6{
+    display: inline-block;
+    font-size: 100%;
+	font-weight: 400;
+    vertical-align: middle;
+    color: #ffffff;
+}
+#menu{
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+li{
+    line-height: 150%;
+    font-size: 150%;
+    display: inline-block;
+    width: 150px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 5px 0 5px;
+}
+a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#item-home a:hover{
+    color: #f06060;
+}
+#item-skills a:hover{
+    color: #f06060;
+}
+#item-tools a:hover{
+    color: #f06060;
+}
+#item-contact a:hover{
+    color: #f06060;
+}
+
+.up-dark{
+    /*border-radius: 50%;
+    font-size: 100%;
+    background: #2a2a2a;
+    color: #2a2a2a;
+    height: 50px;
+    width: 50px;*/
+    width: 0;
+	height: 0;
+	border-left: 10px solid transparent;  /* left arrow slant */
+	border-right: 10px solid transparent; /* right arrow slant */
+	border-bottom: 10px solid #2a2a2a; /* bottom, add background color here */
+	font-size: 0;
+	line-height: 0;
+}
+.up-light{
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;  /* left arrow slant */
+    border-right: 10px solid transparent; /* right arrow slant */
+    border-bottom: 10px solid #2a2a2a; /* bottom, add background color here */
+    font-size: 0;
+    line-height: 0;
+}
+
+/*CONTENT*/
+#home{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    background: #ffffff;
+    /*background: #8cbeb2;*/
+    padding: 100px 20px 50px 20px;
+}
+#home-text h1{
+    display: inherit;
+    font-weight: bold;
+    margin: 0 auto;
+    width: 960px;
+    color: #2a2a2a;
+    font-size: 150%;
+    text-indent: 2em;
+}
+/*#home-text:first-letter{
+    font-weight: 700;
+    font-size: 225%;
+}*/
+
+#skills{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    background: #ffffff;
+    padding: 100px 10px 100px 10px;
+}
+#skills-holder{
+    display: block;
+    margin: 0 auto;
+    width: 960px;
+    text-align: center;
+    clear: both;
+    overflow: hidden;
+}
+#skills-text{
+    float: left;
+    width: 320px;
+    display: inline-block;
+    color: #2a2a2a;
+    font-size: 100%;
+    vertical-align: middle;
+}
+#skills-text h1{
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+    color: #2a2a2a;
+    font-size: 200%;
+}
+#skills-text p{
+    font-size: 150%;
+}
+#skills-content{
+    float: right;
+    width: 640px;
+    display: inline-block;
+}
+
+#tools{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    /*background: #f06060;*/
+    background: #ffffff;
+    padding: 100px 10px 100px 10px;
+}
+#tools-holder{
+    display: block;
+    margin: 0 auto;
+    width: 960px;
+    text-align: center;
+    clear: both;
+    overflow: hidden;
+}
+#tools-text{
+    float: left;
+    width: 320px;
+    display: inline-block;
+    color: #2a2a2a;
+    vertical-align: middle;
+}
+#tools-text h1{
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+    color: #2a2a2a;
+    font-size: 200%;
+}
+#tools-text p{
+    font-size: 150%;
+}
+#tools-content{
+    float: left;
+    width: 640px;
+    display: inline-block;
+}
+
+#projects{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    /*background: #f06060;*/
+    background: #ffffff;
+    padding: 100px 10px 100px 10px;
+}
+#projects-holder{
+    display: block;
+    margin: 0 auto;
+    width: 960px;
+    text-align: center;
+    clear: both;
+    overflow: hidden;
+}
+#projects-text{
+    float: left;
+    width: 320px;
+    display: inline-block;
+    color: #2a2a2a;
+    vertical-align: middle;
+}
+#projects-text h1{
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+    color: #2a2a2a;
+    font-size: 200%;
+}
+#projects-text p{
+    font-size: 150%;
+}
+#projects-content{
+    float: left;
+    width: 640px;
+    display: inline-block;
+}
+
+#contact{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    background: #ffffff;
+    padding: 100px 10px 100px 10px;
+}
+#contact-holder{
+    display: block;
+    margin: 0 auto;
+    width: 960px;
+    text-align: center;
+    clear: both;
+    overflow: hidden;
+}
+#contact-text{
+    float: left;
+    width: 320px;
+    display: inline-block;
+    color: #2a2a2a;
+    vertical-align: middle;
+}
+#contact-text h1{
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+    color: #2a2a2a;
+    font-size: 200%;
+}
+#contact-text p{
+    font-size: 150%;
+}
+#contact-content{
+    float: right;
+    width: 640px;
+    display: inline-block;
+}
+
+/*LOGOS*/
+#android{
+    display: inline-block;
+    margin: 10px;
+    background-image:url('../images/logo-android.png');
+    background-size: 100%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+#android p{
+    color: #ffffff;
+    line-height: 150px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    visibility: hidden;
+}
+#android:hover{
+    /*background-image: url('../images/logo-android-text.png');*/
+    background: #a4c639;
+    transition-duration: 100ms;
+	-webkit-transition-duration: 100ms; /* Safari */
+}
+#android:hover p{
+    visibility: visible;
+    transition-duration: 100ms;
+	-webkit-transition-duration: 100ms; /* Safari */
+}
+
+#windows{
+    display: inline-block;
+    margin: 10px;
+    background-image:url('../images/logo-windows.png');
+    background-size: 100%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+#windows p{
+    color: #ffffff;
+    line-height: 150px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    visibility: hidden;
+}
+#windows:hover{
+    /*background-image: url('../images/logo-windows-text.png');*/
+    background: #00a1f1;
+    transition-duration: 100ms;
+	-webkit-transition-duration: 100ms; /* Safari */
+}
+#windows:hover p{
+    visibility: visible;
+    transition-duration: 100ms;
+	-webkit-transition-duration: 100ms; /* Safari */
+}
+
+#apple{
+    display: inline-block;
+    margin: 10px;
+    background-image:url('../images/logo-apple.png');
+    background-size: 100%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+#apple p{
+    color: #ffffff;
+    line-height: 150px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    visibility: hidden;
+}
+#apple:hover{
+    /*background-image: url('../images/logo-apple-text.png');*/
+    background: #999999;
+    transition-duration: 100ms;
+	-webkit-transition-duration: 100ms; /* Safari */
+}
+#apple:hover p{
+    visibility: visible;
+    transition-duration: 100ms;
+	-webkit-transition-duration: 100ms; /* Safari */
+}
+
+#java{
+    display: inline-block;
+    margin: 10px;
+    background-image:url('../images/logo-java.png');
+    background-size: 100%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+#java p{
+    color: #ffffff;
+    line-height: 150px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    visibility: hidden;
+}
+#java:hover{
+    /*background-image: url('../images/logo-android-text.png');*/
+    background: #5382A1;
+    transition-duration: 100ms;
+	-webkit-transition-duration: 100ms; /* Safari */
+}
+#java:hover p{
+    visibility: visible;
+    transition-duration: 100ms;
+	-webkit-transition-duration: 100ms; /* Safari */
+}
+
+#gradle{
+    display: inline-block;
+    margin: 10px;
+    background-image:url('../images/logo-gradle.png');
+    background-size: 100%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+#gradle p{
+    color: #ffffff;
+    line-height: 150px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    visibility: hidden;
+}
+#gradle:hover{
+    /*background-image: url('../images/logo-android-text.png');*/
+    background: #27540d;
+    transition-duration: 100ms;
+	-webkit-transition-duration: 100ms; /* Safari */
+}
+#gradle:hover p{
+    visibility: visible;
+    transition-duration: 100ms;
+	-webkit-transition-duration: 100ms; /* Safari */
+}
+
+#firebase{
+    display: inline-block;
+    margin: 10px;
+    background-image:url('../images/logo-firebase.png');
+    background-size: 100%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+#firebase p{
+    color: #ffffff;
+    line-height: 150px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    visibility: hidden;
+}
+#firebase:hover{
+    /*background-image: url('../images/logo-android-text.png');*/
+    background: #FFA500;
+    transition-duration: 100ms;
+	-webkit-transition-duration: 100ms; /* Safari */
+}
+#firebase:hover p{
+    visibility: visible;
+    transition-duration: 100ms;
+	-webkit-transition-duration: 100ms; /* Safari */
+}
+
+/*TOOLS*/
+#macbook{
+    display: inline-block;
+    margin: 10px;
+    background-image:url('../images/logo-macbook.png');
+    background-size: 100%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+#macbook p{
+    color: #ffffff;
+    line-height: 150px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    visibility: hidden;
+}
+#macbook:hover{
+    /*background-image: url('../images/logo-macbook-text.png');*/
+    background: #2d7199;
+    transition-duration: 100ms;
+	-webkit-transition-duration: 100ms; /* Safari */
+}
+#macbook:hover p{
+    visibility: visible;
+    transition-duration: 100ms;
+	-webkit-transition-duration: 100ms; /* Safari */
+}
+
+#ipad{
+    display: inline-block;
+    margin: 10px;
+    background-image:url('../images/logo-ipad.jpg');
+    background-size: 100%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+#ipad p{
+    color: #ffffff;
+    line-height: 150px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    visibility: hidden;
+}
+#ipad:hover{
+    /*background-image: url('../images/logo-nexus10-text.png');*/
+    background: #ccbc86;
+    transition-duration: 100ms;
+	-webkit-transition-duration: 100ms; /* Safari */
+}
+#ipad:hover p{
+    visibility: visible;
+    transition-duration: 100ms;
+	-webkit-transition-duration: 100ms; /* Safari */
+}
+
+#nexus6p{
+    display: inline-block;
+    margin: 10px;
+    background-image:url('../images/logo-nexus6p.jpg');
+    background-size: 100%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+#nexus6p p{
+    color: #ffffff;
+    line-height: 150px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    visibility: hidden;
+}
+#nexus6p:hover{
+    /*background-image: url('../images/logo-nexus5-text.png');*/
+    background: #ccbc86;
+    transition-duration: 100ms;
+	-webkit-transition-duration: 100ms; /* Safari */
+}
+#nexus6p:hover p{
+    visibility: visible;
+    transition-duration: 100ms;
+	-webkit-transition-duration: 100ms; /* Safari */
+}
+
+#atom{
+    display: inline-block;
+    margin: 10px;
+    background-image:url('../images/logo-atom.png');
+    background-size: 100%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+#atom p{
+    color: #ffffff;
+    line-height: 150px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    visibility: hidden;
+}
+#atom:hover{
+    /*background-image: url('../images/logo-brackets-text.png');*/
+    background: #62db78;
+    transition-duration: 100ms;
+	-webkit-transition-duration: 100ms; /* Safari */
+}
+#atom:hover p{
+    visibility: visible;
+    transition-duration: 100ms;
+	-webkit-transition-duration: 100ms; /* Safari */
+}
+
+#studio{
+    display: inline-block;
+    margin: 10px;
+    background-image:url('../images/logo-android-studio.png');
+    background-size: 100%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+#studio p{
+    color: #ffffff;
+    line-height: 150px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    visibility: hidden;
+}
+#studio:hover{
+    /*background-image: url('../images/logo-gimp-text.png');*/
+    background: #a4c639;
+    transition-duration: 100ms;
+	-webkit-transition-duration: 100ms; /* Safari */
+}
+#studio:hover p{
+    visibility: visible;
+    transition-duration: 100ms;
+	-webkit-transition-duration: 100ms; /* Safari */
+}
+
+#eclipse{
+    display: inline-block;
+    margin: 10px;
+    background-image:url('../images/logo-eclipse.png');
+    background-size: 100%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+#eclipse p{
+    color: #ffffff;
+    line-height: 150px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    visibility: hidden;
+}
+#eclipse:hover{
+    /*background-image: url('../images/logo-photoshop-text.png');*/
+    background: #321666;
+    transition-duration: 100ms;
+	-webkit-transition-duration: 100ms; /* Safari */
+}
+#eclipse:hover p{
+    visibility: visible;
+    transition-duration: 100ms;
+	-webkit-transition-duration: 100ms; /* Safari */
+}
+
+/*PROJECTS*/
+#visitare{
+    display: inline-block;
+    margin: 10px;
+    background: #346736;
+    background-size: 100%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+#visitare p{
+    color: #ffffff;
+    line-height: 150px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    visibility: hidden;
+}
+#visitare:hover{
+    /*background-image: url('../images/logo-photoshop-text.png');*/
+    background: #321666;
+    transition-duration: 100ms;
+	-webkit-transition-duration: 100ms; /* Safari */
+}
+#visitare:hover p{
+    visibility: visible;
+    transition-duration: 100ms;
+	-webkit-transition-duration: 100ms; /* Safari */
+}
+
+/*CONTACT*/
+#gmail{
+    display: inline-block;
+    margin: 10px;
+    background-image:url('../images/logo-gmail.png');
+    background-size: 100%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+#gmail p{
+    color: #ffffff;
+    line-height: 150px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    visibility: hidden;
+}
+#gmail:hover{
+    /*background-image: url('../images/logo-gmail-text.png');*/
+    background: #db3236;
+    transition-duration: 100ms;
+	-webkit-transition-duration: 100ms; /* Safari */
+}
+#gmail:hover p{
+    visibility: visible;
+    transition-duration: 100ms;
+	-webkit-transition-duration: 100ms; /* Safari */
+}
+
+#linkedin{
+    display: inline-block;
+    margin: 10px;
+    background-image:url('../images/logo-linkedin.png');
+    background-size: 100%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+#linkedin p{
+    color: #ffffff;
+    line-height: 150px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    visibility: hidden;
+}
+#linkedin:hover{
+    /*background-image: url('../images/logo-linkedin-text.png');*/
+    background: #007bb5;
+    transition-duration: 100ms;
+	-webkit-transition-duration: 100ms; /* Safari */
+}
+#linkedin:hover p{
+    visibility: visible;
+    transition-duration: 100ms;
+	-webkit-transition-duration: 100ms; /* Safari */
+}
+
+#twitter{
+    display: inline-block;
+    margin: 10px;
+    background-image:url('../images/logo-twitter.png');
+    background-size: 100%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+#twitter p{
+    color: #ffffff;
+    line-height: 150px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    visibility: hidden;
+}
+#twitter:hover{
+    /*background-image: url('../images/logo-twitter-text.png');*/
+    background: #55acee;
+    transition-duration: 100ms;
+	-webkit-transition-duration: 100ms; /* Safari */
+}
+#twitter:hover p{
+    visibility: visible;
+    transition-duration: 100ms;
+	-webkit-transition-duration: 100ms; /* Safari */
+}
+
+/*Regular*/
+@media only screen and (min-width: 1000px) and (max-width:1399px){
+
+}
+/*Mobile*/
+@media only screen and (min-width: 0px) and (max-width: 999px){
+
+}
