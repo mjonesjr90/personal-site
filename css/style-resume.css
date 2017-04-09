@@ -25,24 +25,67 @@
  * - Varela Round
  */
 
-/*HEADLINE*/
-#headline{
+
+
+/*ABOUT*/
+#holder{
     position: fixed;
-    display: block;
     margin: 0 auto;
     padding: 0;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-}
-#malcom{
-    font-family: 'Space Mono', monospace;
-    font-size: 150%;
+    transform: translate(-50%, -50%); /*Keeps this div centered*/
     width: 960px;
-    padding: 0;
-    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    color: #ECF0F1;
+}
+
+#current{
+    font-size: 125%;
     text-align: center;
-    display: inline;
+    display: inline-block;
+    width: 33%;
+    background-color: #757;
+}
+#current img{
+    width: 100%;
+}
+#past{
+    font-size: 100%;
+    text-align: center;
+    display: inline-block;
+    width: 33%;
+}
+#extra{
+    font-size: 100%;
+    text-align: center;
+    display: inline-block;
+    width: 33%;
+    background-color: #454;
+}
+
+#description{
+    display: block;
+    clear: both;
+    overflow: hidden;
+}
+#about img{
+	  height: 300px;
+	  border: 0px;
+	  border-radius: 300px;
+    padding: 0;
+    float: left;
+    display: inline-block;
+    vertical-align: middle;
+}
+#about span{
+    color: #ECF0F1;
+    width: 600px;
+    height: inherit;
+    padding: 0;
+    float: right;
+    display: inline-block;
+    vertical-align: middle;
 }
 h1{
     font-family: 'Open Sans', sans-serif;
