@@ -30,7 +30,7 @@ html, body{
     font-family: 'Lato', sans-serif;*/
     font-family: 'Open Sans', sans-serif;
     width: 100%;
-    min-width: 960px;
+    /*min-width: 960px;*/
 	height: 100%;
     margin: 0 auto;
     background: #121212;
@@ -43,7 +43,7 @@ html, body{
 
 /* NAVIGATION Full width nav bar at the top with position fixed and aligned to the top */
 #nav{
-    width: 51%;
+    width: 50%;
     height: 40px;
     /*background-color: #ECF0F1;*/
     position: fixed;
@@ -54,7 +54,7 @@ html, body{
     font-weight: bold;
 }
 #nav-home{
-    width: 51%;
+    width: 50%;
     height: 40px;
     /*background-color: #ECF0F1;*/
     position: fixed;
