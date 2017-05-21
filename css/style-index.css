@@ -68,11 +68,6 @@ hr {
     border-width: 1px;
     color: #ECF0F1;
 }
-a{
-    /*font-weight: bold;*/
-    text-decoration: none;
-    color: #000000;
-}
 
 /*Regular*/
 @media only screen and (min-width: 1000px) and (max-width:1399px){

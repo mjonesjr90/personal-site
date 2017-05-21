@@ -2,15 +2,15 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Malcom Jones Jr.</title>
+    <title>Projects - Malcom Jones Jr.</title>
 
-    <meta name="description" content="malcom jones jr.">
+    <meta name="description" content="Resume">
     <meta name="author" content="Malcom Jones Jr.">
 	<link rel="icon" type="image/ico" href="images/favicon.ico">
 
     <!--CSS-->
     <link rel="stylesheet" type="text/css" href="css/style-background.css" />
-    <link rel="stylesheet" type="text/css" href="css/style-about.css" />
+    <link rel="stylesheet" type="text/css" href="css/style-projects.css" />
 	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
 	<!--End CSS-->
 
@@ -21,13 +21,13 @@
 
     <!--Google Analytics-->
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-      ga('create', 'UA-43474052-1', 'malcomjonesjr.com');
-      ga('send', 'pageview');
+        ga('create', 'UA-43474052-1', 'auto');
+        ga('send', 'pageview');
 
     </script>
     <!--End Google Analytics-->
@@ -36,7 +36,7 @@
 <body>
     <div id="nav-home">
         <ul>
-            <li id="item-index"><a href="index-modern.html">MJ</a></li>
+            <li id="item-index"><a href="index.html">MJ</a></li>
         </ul>
     </div>
     <div id="nav">
@@ -47,121 +47,24 @@
             <li id="item-contact"><a href="contact.html">contact</a></li>
         </ul>
     </div>
-    <div id="about">
-        <div id="description">
-            <img src="images/profile-square.jpg">
-            <span>Malcom Jones is an innovative problem solver, a great collaborator,
-                and passionate about technology and how it can change the way we live
-                our everyday lives.<br><br>
-
-                He currently works as an engineer with the AOL Platforms team working
-                to help integrate mobile apps and websites onto the platform. He has
-                prior experience teaching as a computer science professor, architecting
-                technology strategy, establishing a strategic IT supplier relationship
-                framework, and managing IT governance.<br><br>
-
-                Malcom received his B.S. in Computer Engineering and M.S. in Computer
-                Science from Christopher Newport University.</span>
+    <div id="holder">
+        <div id="project">
+            <h1><a href="https://github.com/mjonesjr90/VisITARe">VisITARe</a></h1>
+            <p>
+                A framework that leverages augmented reality to display
+                data from an IoT network. The app takes this data, parses it,
+                and uses it to overlay information onto the mobile device being
+                viewed by the user.
+            </p>
         </div>
+        <div id="project">
+            <h1><a href="https://github.com/mjonesjr90/StudyTime">StudyTime</a></h1>
+            <p>
+                A simple app for reserving study rooms in college. In progress.
+            </p>
+        </div>
+        <span class="stretch"></span>
     </div>
-    <!-- <div id="header">
-        <div id="malcom">
-            <img src="images/profile.jpg">
-            <h3>malcom jones jr. technologist. strategist. developer.</h3>
-        </div>
-        <div id="menu">
-
-        </div>
-        <div id="container">
-            <div id="skills-holder">
-                <div id="skills-text">
-                    <h1>skills</h1>
-                    <p>platforms and languages i have experience with</p>
-                </div>
-                <div id="skills-content">
-                    <div id="android"><p>android</p></div>
-                    <div id="windows"><p>windows</p></div>
-                    <div id="apple"><p>macOS</p></div>
-                    <div id="java"><p>java</p></div>
-                    <div id="firebase"><p>firebase</p></div>
-                    <div id="gradle"><p>gradle</p></div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="home">
-        <div id="home-text">
-            <h1>a technologist with a passion for making life better through technology.</h1>
-        </div>
-    </div>
-    <div id="skills">
-        <a class= "up-dark" href="#header"></a>
-        <div id="skills-holder">
-            <div id="skills-text">
-                <h1>skills</h1>
-                <p>platforms and languages i have experience with</p>
-            </div>
-            <div id="skills-content">
-                <div id="android"><p>android</p></div>
-                <div id="windows"><p>windows</p></div>
-                <div id="apple"><p>macOS</p></div>
-            </div>
-            <div id="skills-content">
-                <div id="java"><p>java</p></div>
-                <div id="firebase"><p>firebase</p></div>
-                <div id="gradle"><p>gradle</p></div>
-            </div>
-        </div>
-    </div>
-    <div id="tools">
-        <a class="up-dark" href="#header">^</a>
-        <div id="tools-holder">
-            <div id="tools-text">
-                <h1>tools</h1>
-                <p>devices and tools i use for software development</p>
-            </div>
-            <div id="tools-content">
-                <div id="ipad"><p>ipad air 2</p></div>
-                <div id="eclipse"><p>eclipse</p></div>
-                <div id="nexus6p"><p>nexus 6p</p></div>
-            </div>
-            <div id="tools-content">
-                <div id="atom"><p>atom</p></div>
-                <div id="macbook"><p>macbook air</p></div>
-                <div id="studio"><p>android studio</p></div>
-            </div>
-        </div>
-    </div>
-    <div id="projects">
-        <a class="up-dark" href="#header">^</a>
-        <div id="projects-holder">
-            <div id="projects-text">
-                <h1>projects</h1>
-                <p>softare related projects</p>
-            </div>
-            <div id="projects-content">
-                <div id="visitare"><p>visitare</p></div>
-                <p>
-                    masters thesis
-                </p>
-                <div id="innovate"><p>innovate hackathon</p></div>
-            </div>
-        </div>
-    </div>
-    <div id="contact">
-        <a class="up-dark" href="#header">^</a>
-        <div id="contact-holder">
-            <div id="contact-text">
-                <h1>contact</h1>
-                <p>use the links to the right or email me at mjonesjr90@gmail.com</p>
-            </div>
-            <div id="contact-content">
-                <a href="mailto:mjonesjr90@gmail.com"><div id="gmail"><p>gmail</p></div></a>
-                <a href="http://www.linkedin.com/in/malcomjonesjr"><div id="linkedin"><p>linkedin</p></div></a>
-                <a href="https://twitter.com/mjonesjr25"><div id="twitter"><p>twitter</p></div></a>
-            </div>
-        </div>
-    </div> -->
     <footer>
     </footer>
 </body>

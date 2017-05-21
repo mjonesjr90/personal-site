@@ -9,45 +9,75 @@
 	<link rel="icon" type="image/ico" href="images/favicon.ico">
 
     <!--CSS-->
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/style-background.css" />
+    <link rel="stylesheet" type="text/css" href="css/style-index.css" />
 	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
 	<!--End CSS-->
 
     <!--Google Fonts-->
-    <link href='http://fonts.googleapis.com/css?family=Quicksand:300,400,700' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=Tangerine:400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800|Space+Mono:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono:400,700" rel="stylesheet">
     <!--End Google Fonts-->
 
     <!--Google Analytics-->
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-      ga('create', 'UA-43474052-1', 'malcomjonesjr.com');
-      ga('send', 'pageview');
+        ga('create', 'UA-43474052-1', 'auto');
+        ga('send', 'pageview');
 
     </script>
     <!--End Google Analytics-->
 </head>
 
 <body>
-    <div id="header">
+    <div id="nav-home">
+        <ul>
+            <li id="item-index"><a href="index.html">MJ</a></li>
+        </ul>
+    </div>
+    <div id="nav">
+        <ul>
+            <li id="item-about"><a href="about.html">about</a></li>
+            <li id="item-resume"><a href="resume.html">resume</a></li>
+            <li id="item-projects"><a href="projects.html">projects</a></li>
+            <li id="item-contact"><a href="contact.html">contact</a></li>
+        </ul>
+    </div>
+    <div id="headline">
+        <div id="malcom">
+            <h1>Malcom Jones Jr.</h1>
+            <hr>
+            <h2>engineer | technologist | strategist</h2>
+        </div>
+    </div>
+    <!-- <div id="header">
         <div id="malcom">
             <img src="images/profile.jpg">
             <h3>malcom jones jr. technologist. strategist. developer.</h3>
         </div>
         <div id="menu">
-        <ul>
-            <li id="item-home"><a href="#home">about</a></li>
-            <li id="item-skills"><a href="#skills">skills</a></li>
-            <li id="item-tools"><a href="#tools">tools</a></li>
-            <li id="item-contact"><a href="#contact">contact</a></li>
-        </ul>
-    </div>
+
+        </div>
+        <div id="container">
+            <div id="skills-holder">
+                <div id="skills-text">
+                    <h1>skills</h1>
+                    <p>platforms and languages i have experience with</p>
+                </div>
+                <div id="skills-content">
+                    <div id="android"><p>android</p></div>
+                    <div id="windows"><p>windows</p></div>
+                    <div id="apple"><p>macOS</p></div>
+                    <div id="java"><p>java</p></div>
+                    <div id="firebase"><p>firebase</p></div>
+                    <div id="gradle"><p>gradle</p></div>
+                </div>
+            </div>
+        </div>
     </div>
     <div id="home">
         <div id="home-text">
@@ -60,7 +90,6 @@
             <div id="skills-text">
                 <h1>skills</h1>
                 <p>platforms and languages i have experience with</p>
-                <!--<p>go ahead and click a skill - it'll take you to some of the work i've done in that area!</p>-->
             </div>
             <div id="skills-content">
                 <div id="android"><p>android</p></div>
@@ -80,7 +109,6 @@
             <div id="tools-text">
                 <h1>tools</h1>
                 <p>devices and tools i use for software development</p>
-                <!--<p>go ahead and click a skill - it'll take you to some of the work i've done in that area!</p>-->
             </div>
             <div id="tools-content">
                 <div id="ipad"><p>ipad air 2</p></div>
@@ -94,7 +122,7 @@
             </div>
         </div>
     </div>
-    <!-- <div id="projects">
+    <div id="projects">
         <a class="up-dark" href="#header">^</a>
         <div id="projects-holder">
             <div id="projects-text">
@@ -109,7 +137,7 @@
                 <div id="innovate"><p>innovate hackathon</p></div>
             </div>
         </div>
-    </div> -->
+    </div>
     <div id="contact">
         <a class="up-dark" href="#header">^</a>
         <div id="contact-holder">
@@ -123,7 +151,7 @@
                 <a href="https://twitter.com/mjonesjr25"><div id="twitter"><p>twitter</p></div></a>
             </div>
         </div>
-    </div>
+    </div> -->
     <footer>
     </footer>
 </body>

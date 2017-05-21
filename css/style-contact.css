@@ -27,7 +27,7 @@
 
 
 
-/*ABOUT*/
+/*CONTACT*/
 #holder{
     position: fixed;
     margin: 0 auto;
@@ -35,91 +35,24 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); /*Keeps this div centered*/
-    width: 960px;
-    font-family: 'Open Sans', sans-serif;
-    color: #ECF0F1;
-}
-img{
-    width: 33%;
-}
-#linkedin{
-    clear: both;
-    font-size: 125%;
-    text-align: center;
-    display: inline;
-    width: 33%;
-    background-color: #757;
-    position: relative;
-}
-#linkedin img{
-    width: 100%;
-    white-space: nowrap;
-}
-#past{
-    font-size: 100%;
-    text-align: center;
-    display: inline-block;
-    width: 33%;
-}
-#extra{
-    font-size: 100%;
-    text-align: center;
-    display: inline-block;
-    width: 33%;
-    background-color: #454;
-}
+    width: 720px;
+    min-width:320px;
 
-#description{
-    display: block;
-    clear: both;
-    overflow: hidden;
-}
-#about img{
-	  height: 300px;
-	  border: 0px;
-	  border-radius: 300px;
-    padding: 0;
-    float: left;
-    display: inline-block;
-    vertical-align: middle;
-}
-#about span{
-    color: #ECF0F1;
-    width: 600px;
-    height: inherit;
-    padding: 0;
-    float: right;
-    display: inline-block;
-    vertical-align: middle;
-}
-h1{
     font-family: 'Open Sans', sans-serif;
-    font-size: 300%;
-    padding: 0;
-    margin: 0;
+    text-align: justify;
+    color: #ECF0F1;
 }
-h1, h2{
-    font-weight: 400;
+#holder a{
+    vertical-align: top;
     display: inline-block;
-    vertical-align: middle;
-    color: #ECF0F1;
-    width: inherit;
+    *display: inline;
+    zoom: 1;
 }
-hr {
-    display: block;
-    width: inherit;
-    margin-top: 0.2em;
-    margin-bottom: 0.2em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: solid;
-    border-width: 1px;
-    color: #ECF0F1;
-}
-a{
-    /*font-weight: bold;*/
-    text-decoration: none;
-    color: #000000;
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
 }
 
 /*Regular*/

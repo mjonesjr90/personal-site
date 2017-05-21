@@ -44,11 +44,11 @@
     overflow: hidden;
 }
 #about img{
-	  height: 300px;
-	  border: 0px;
-	  border-radius: 300px;
-    padding: 0;
-    float: left;
+    height: 300px;
+    border: 0px;
+    border-radius: 300px;
+    margin-right: 20px;
+    /*float: left;*/
     display: inline-block;
     vertical-align: middle;
 }
@@ -57,7 +57,7 @@
     width: 600px;
     height: inherit;
     padding: 0;
-    float: right;
+    /*float: right;*/
     display: inline-block;
     vertical-align: middle;
 }
@@ -84,11 +84,6 @@ hr {
     border-style: solid;
     border-width: 1px;
     color: #ECF0F1;
-}
-a{
-    /*font-weight: bold;*/
-    text-decoration: none;
-    color: #000000;
 }
 
 /*Regular*/

@@ -27,94 +27,78 @@
 
 
 
-/*ABOUT*/
+/*RESUME*/
 #holder{
     position: fixed;
     margin: 0 auto;
-    padding: 0;
+    padding: 10px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); /*Keeps this div centered*/
     width: 960px;
+    min-width:480px;
+    max-width: 1280px;
+
     font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    text-align: justify;
     color: #ECF0F1;
 }
-
-#current{
-    font-size: 125%;
-    text-align: center;
-    display: inline-block;
-    width: 33%;
-    background-color: #757;
-}
-#current img{
-    width: 100%;
-}
-#past{
-    font-size: 100%;
-    text-align: center;
-    display: inline-block;
-    width: 33%;
-}
-#extra{
-    font-size: 100%;
-    text-align: center;
-    display: inline-block;
-    width: 33%;
-    background-color: #454;
-}
-
-#description{
-    display: block;
-    clear: both;
-    overflow: hidden;
-}
-#about img{
-	  height: 300px;
-	  border: 0px;
-	  border-radius: 300px;
-    padding: 0;
-    float: left;
-    display: inline-block;
+#current-edu, #past, #extra{
     vertical-align: middle;
-}
-#about span{
-    color: #ECF0F1;
-    width: 600px;
-    height: inherit;
-    padding: 0;
-    float: right;
     display: inline-block;
-    vertical-align: middle;
-}
-h1{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 300%;
-    padding: 0;
+    *display: inline;
+    width: 30%;
     margin: 0;
+    padding: 20px 0 20px 0;
+    text-align: center;
 }
-h1, h2{
-    font-weight: 400;
+p{
+    font-size: 1em;
+}
+h4{
+    font-size: 1em;
+    text-align: center;
+}
+#current-edu img{
+    margin-left: auto;
+	margin-right: auto;
+	display: block;
+    /*width: 128px;*/
+    height: 96px;
+}
+
+#past{
+    border-left: 2px solid;
+    border-right: 2px solid;
+    border-color: #ECF0F1;
+    padding: 20px;
+}
+
+.slot{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    vertical-align: middle;
+}
+.slot img{
+    width: 20%;
     display: inline-block;
     vertical-align: middle;
-    color: #ECF0F1;
-    width: inherit;
 }
-hr {
-    display: block;
-    width: inherit;
-    margin-top: 0.2em;
-    margin-bottom: 0.2em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: solid;
-    border-width: 1px;
-    color: #ECF0F1;
+.slot h4{
+    width: 75%;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 0 10px;
+    text-align: center;
+    line-height: 100%;
 }
-a{
-    /*font-weight: bold;*/
-    text-decoration: none;
-    color: #000000;
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
 }
 
 /*Regular*/

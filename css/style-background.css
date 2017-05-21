@@ -14,15 +14,11 @@
  * - https://color.adobe.com/Flat-UI-color-theme-2469224/edit/?copy=true
  *
  * Menu:
- * - Home (Intro)
- * - Experience
- * - Skills
- * - Tools
- * - Contact
- *
- * Fonts:
- * - Open Sans
- * - Varela Round
+ * - Home (MJ)
+ * - about
+ * - resume
+ * - projects
+ * - contact
  */
 
 /*Page*/
@@ -47,19 +43,20 @@ html, body{
 
 /* NAVIGATION Full width nav bar at the top with position fixed and aligned to the top */
 #nav{
-    width: 50%;
+    width: 51%;
     height: 40px;
-    background-color: #ECF0F1;
+    /*background-color: #ECF0F1;*/
     position: fixed;
     top: 0px;
     right: 0px;
     margin: 0 auto;
     text-align: right;
+    font-weight: bold;
 }
 #nav-home{
-    width: 50%;
+    width: 51%;
     height: 40px;
-    background-color: #ECF0F1;
+    /*background-color: #ECF0F1;*/
     position: fixed;
     top: 0px;
     left: 0px;
@@ -79,8 +76,15 @@ li{
     /*width: 150px;*/
     /*border-radius: 0px;*/
     text-align: center;
-    margin: 10px 20px 0 20px;
+    padding: 10px 20px 0 20px;*/
 }
+a{
+    /*font-weight: bold;*/
+    text-decoration: none;
+    color: #ECF0F1;
+    outline: none;
+}
+
 #item-index a:hover{
     color: #E74C3C;
 }
