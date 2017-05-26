@@ -15,6 +15,12 @@
 	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
 	<!--End CSS-->
 
+    <!--JQuery-->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+
     <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Space+Mono:400,700" rel="stylesheet">
@@ -32,15 +38,24 @@
 
     </script>
     <!--End Google Analytics-->
+
+    <!--Being Javascript-->
+    <!-- Fades navigation on scroll -->
+    <script>
+        $(window).scroll(function(){
+            $(".inner").css("opacity", 1 - $(window).scrollTop()/180);
+        });
+    </script>
+    <!--End Javascript-->
 </head>
 
 <body>
-    <div id="nav-home">
+    <div class="inner" id="nav-home">
         <ul>
             <li id="item-index"><a href="index.html">MJ</a></li>
         </ul>
     </div>
-    <div id="nav">
+    <div class="inner" id="nav">
         <ul>
             <li id="item-about"><a href="about.html">about</a></li>
             <li id="item-resume"><a href="resume.html">resume</a></li>
@@ -49,7 +64,6 @@
         </ul>
     </div>
     <div id="about">
-        <div class="description">
         <div id="description">
             <img src="images/profile-square.jpg">
             <span>Malcom Jones is an innovative problem solver, a great collaborator,
@@ -65,8 +79,6 @@
                 Malcom received his B.S. in Computer Engineering and M.S. in Computer
                 Science from Christopher Newport University.</span>
         </div>
-
-    </div>
     </div>
     <footer>
     </footer>
