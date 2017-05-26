@@ -70,7 +70,7 @@ hr {
 }
 
 /*Mobile*/
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 768px){
     #headline{
         position: fixed;
         display: block;
@@ -83,7 +83,7 @@ hr {
     #malcom{
         font-family: 'Space Mono', monospace;
         font-size: 1em;
-        width: 350px;
+        width: 300px;
         padding: 0;
         margin: 0 auto;
         text-align: center;
@@ -96,7 +96,7 @@ hr {
         margin: 0;
     }
     h2{
-        font-size: 0.9em;
+        font-size: 0.8em;
     }
     h1, h2{
         font-weight: 400;

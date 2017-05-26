@@ -15,6 +15,12 @@
 	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
 	<!--End CSS-->
 
+    <!--JQuery-->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+
     <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Space+Mono:400,700" rel="stylesheet">
@@ -32,15 +38,24 @@
 
     </script>
     <!--End Google Analytics-->
+
+    <!--Being Javascript-->
+    <!-- Fades navigation on scroll -->
+    <script>
+        $(window).scroll(function(){
+            $(".inner").css("opacity", 1 - $(window).scrollTop()/180);
+        });
+    </script>
+    <!--End Javascript-->
 </head>
 
 <body>
-    <div id="nav-home">
+    <div class-"inner" id="nav-home">
         <ul>
             <li id="item-index"><a href="index.html">MJ</a></li>
         </ul>
     </div>
-    <div id="nav">
+    <div class="inner" id="nav">
         <ul>
             <li id="item-about"><a href="about.html">about</a></li>
             <li id="item-resume"><a href="resume.html">resume</a></li>
@@ -49,22 +64,24 @@
         </ul>
     </div>
     <div id="holder">
-        <div id="project">
-            <h1><a href="https://github.com/mjonesjr90/VisITARe">VisITARe</a></h1>
-            <p>
-                A framework that leverages augmented reality to display
-                data from an IoT network. The app takes this data, parses it,
-                and uses it to overlay information onto the mobile device being
-                viewed by the user.
-            </p>
+        <div id="scroller">
+            <div id="project">
+                <h1><a href="https://github.com/mjonesjr90/VisITARe">VisITARe</a></h1>
+                <p>
+                    A framework that leverages augmented reality to display
+                    data from an IoT network. The app takes this data, parses it,
+                    and uses it to overlay information onto the mobile device being
+                    viewed by the user.
+                </p>
+            </div>
+            <div id="project">
+                <h1><a href="https://github.com/mjonesjr90/StudyTime">StudyTime</a></h1>
+                <p>
+                    A simple app for reserving study rooms in college. In progress.
+                </p>
+            </div>
+            <span class="stretch"></span>
         </div>
-        <div id="project">
-            <h1><a href="https://github.com/mjonesjr90/StudyTime">StudyTime</a></h1>
-            <p>
-                A simple app for reserving study rooms in college. In progress.
-            </p>
-        </div>
-        <span class="stretch"></span>
     </div>
     <footer>
     </footer>

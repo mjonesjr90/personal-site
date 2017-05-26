@@ -36,15 +36,13 @@
     left: 50%;
     transform: translate(-50%, -50%); /*Keeps this div centered*/
     width: 960px;
-    min-width:480px;
-    max-width: 1280px;
 
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
     text-align: justify;
     color: #ECF0F1;
 }
-#current-edu, #past, #extra{
+#current, #past, #extra{
     vertical-align: middle;
     display: inline-block;
     *display: inline;
@@ -60,7 +58,7 @@ h4{
     font-size: 1em;
     text-align: center;
 }
-#current-edu img{
+#current img, #extra img{
     margin-left: auto;
 	margin-right: auto;
 	display: block;
@@ -101,11 +99,59 @@ h4{
     line-height: 0
 }
 
-/*Regular*/
-@media only screen and (min-width: 1000px) and (max-width:1399px){
-
-}
 /*Mobile*/
-@media only screen and (min-width: 0px) and (max-width: 999px){
+@media only screen and (max-width: 768px){
+    .inner{
+        opacity: 1;
+    }
+    #holder{
+        position: relative;
+        top: 180px;
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
 
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1em;
+        text-align: center;
+        color: #ECF0F1;
+        background-color: red;
+    }
+    #scroller{
+        position: absolute;
+        margin: 0 auto;
+        width: 100%;
+    }
+    #current, #extra{
+        display: block;
+        width: 300px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    #current img, #extra img{
+        margin: 0 auto;
+    	display: block;
+        height: 96px;
+    }
+    #current{
+        padding-top: 0;
+    }
+    #past{
+        margin: 0 auto;
+        border-top: 2px solid;
+        border-bottom: 2px solid;
+        border-right: 0;
+        border-left: 0;
+        border-color: #ECF0F1;
+        padding: 20px 0 20px 0;
+        display: block;
+        width: 300px;
+        /*background-color: green;*/
+    }
+    .stretch {
+        width: 0px;
+        display: block;
+        font-size: 0;
+        line-height: 0
+    }
 }

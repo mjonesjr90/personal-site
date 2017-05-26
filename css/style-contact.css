@@ -36,7 +36,6 @@
     left: 50%;
     transform: translate(-50%, -50%); /*Keeps this div centered*/
     width: 720px;
-    min-width:320px;
 
     font-family: 'Open Sans', sans-serif;
     text-align: justify;
@@ -55,11 +54,37 @@
     line-height: 0
 }
 
-/*Regular*/
-@media only screen and (min-width: 1000px) and (max-width:1399px){
-
-}
 /*Mobile*/
-@media only screen and (min-width: 0px) and (max-width: 999px){
+@media only screen and (max-width: 768px){
+    #holder{
+        position: relative;
+        top: 180px;
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
 
+        font-family: 'Open Sans', sans-serif;
+        text-align: justify;
+        color: #ECF0F1;
+    }
+    #scroller{
+        position: absolute;
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+    }
+    #holder a{
+        margin: 0 auto;
+        padding: 10px 10px 40px 10px;
+        display: block;
+    }
+    #holder img{
+        height: 75px;
+    }
+    .stretch {
+        width: 0;
+        display: block;
+        font-size: 0;
+        line-height: 0
+    }
 }
