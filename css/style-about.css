@@ -35,7 +35,9 @@
     transform: translate(-50%, -50%); /*Keeps this div centered*/
     width: 960px;
     height: auto;
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Muli', sans-serif;
+    font-weight: regular;
     font-size: 125%;
     text-align: justify;
 }
@@ -86,6 +88,10 @@ hr {
     color: #ECF0F1;
 }
 
+#item-about a{
+    color: #E74C3C;
+}
+
 /*Mobile*/
 @media only screen and (max-width: 768px){
     #about{
@@ -114,9 +120,13 @@ hr {
 
     #about span{
         margin: 0 auto;
-        padding-top: 20px;
+        padding: 20px 0 20px 0;
         color: #ECF0F1;
         width: 320px;
         display: block;
+    }
+
+    #item-about a{
+        color: #E74C3C;
     }
 }

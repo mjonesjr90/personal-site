@@ -36,7 +36,6 @@
     left: 50%;
     transform: translate(-50%, -50%); /*Keeps this div centered*/
     width: 960px;
-
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
     text-align: justify;
@@ -52,10 +51,13 @@
     text-align: center;
 }
 p{
-    font-size: 1em;
+    font-size: 1.2em;
+}
+h2{
+    font-family: 'Muli', sans-serif;
+    text-align: center;
 }
 h4{
-    font-size: 1em;
     text-align: center;
 }
 #current img, #extra img{
@@ -98,6 +100,9 @@ h4{
     font-size: 0;
     line-height: 0
 }
+#item-resume a{
+    color: #E74C3C;
+}
 
 /*Mobile*/
 @media only screen and (max-width: 768px){
@@ -110,7 +115,6 @@ h4{
         margin: 0 auto;
         padding: 0;
         width: 100%;
-
         font-family: 'Open Sans', sans-serif;
         font-size: 1em;
         text-align: center;
@@ -153,5 +157,8 @@ h4{
         display: block;
         font-size: 0;
         line-height: 0
+    }
+    #item-resume a{
+        color: #E74C3C;
     }
 }

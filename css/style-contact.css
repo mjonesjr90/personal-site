@@ -53,6 +53,9 @@
     font-size: 0;
     line-height: 0
 }
+#item-contact a{
+    color: #E74C3C;
+}
 
 /*Mobile*/
 @media only screen and (max-width: 768px){
@@ -86,5 +89,8 @@
         display: block;
         font-size: 0;
         line-height: 0
+    }
+    #item-contact a{
+        color: #E74C3C;
     }
 }
